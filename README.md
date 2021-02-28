@@ -19,3 +19,11 @@ This is a menu bar application only
 
 ![Screenshot1](/screenshots/screenshot-1.png)
 ![Screenshot2](/screenshots/screenshot-2.png)
+
+
+### How to get secret
+
+When you're asked to enabled multi-factors authentication, you're either provided with a secret key or a QR code to scan.
+
+1. With secret key, you can easier enter into this application and start using it
+2. With QR Code, you have to decode it and extract the secret out of it. You can use this QR Code decoder to get your secret out of a QR Code https://dongliang3571.github.io/qrcode-decoder/. Don't worry, I don't store any of your data, the source code is here https://github.com/dongliang3571/qrcode-decoder
