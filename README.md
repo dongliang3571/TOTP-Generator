@@ -17,3 +17,4 @@ There might be similar apps out there, but you don't really know if they are saf
 
 This is a menu bar application only
 
+![Screenshot](/screenshot-1.png)
