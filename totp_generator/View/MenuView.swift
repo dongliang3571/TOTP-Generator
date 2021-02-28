@@ -50,7 +50,7 @@ class MenuView: NSView {
             self.addItemPopover.performClose(sender)
         } else {
             self.addItemPopover.show(relativeTo: self.addItemButton.bounds, of: self.addItemButton, preferredEdge: NSRectEdge.minY)
-            self.addItemPopover.contentViewController?.view.window?.makeKey()
+//            self.addItemPopover.contentViewController?.view.window?.makeKey()
         }
     }
     

@@ -41,8 +41,9 @@ class StatusItemController {
             if self.popover.isShown {
                 self.popover.performClose(sender)
             } else {
+//                NSApplication.shared.activate(ignoringOtherApps: true)
                 self.popover.show(relativeTo: button.bounds, of: button, preferredEdge: NSRectEdge.minY)
-                self.popover.contentViewController?.view.window?.makeKey()
+//                self.popover.contentViewController?.view.window?.makeKey()
             }
         }
     }

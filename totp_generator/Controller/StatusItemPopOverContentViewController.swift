@@ -65,7 +65,7 @@ class StatusItemPopOverContentViewController: NSViewController, NSTableViewDeleg
         self.scrollView.reloadItemsFromUserDefault()
 
         // start a period job to update the countdown
-        startTimerJob()
+        self.startTimerJob()
     }
 
     func calculateCountDown() -> Int {
@@ -86,7 +86,7 @@ class StatusItemPopOverContentViewController: NSViewController, NSTableViewDeleg
     }
     
     func startTimerJob() {
-        let _ = Timer.scheduledTimer(withTimeInterval: 1.0, repeats: true) { timer in
+        let timer = Timer.scheduledTimer(withTimeInterval: 1.0, repeats: true) { timer in
             let countDown = self.calculateCountDown()
             self.countDownText.string = String(countDown)
 
@@ -94,5 +94,8 @@ class StatusItemPopOverContentViewController: NSViewController, NSTableViewDeleg
                 self.scrollView.tableView.reloadData()
             }
         }
+
+        // add to runloop so it won't stop working when NSMenu is popped up
+        RunLoop.main.add(timer, forMode: .common)
     }
 }

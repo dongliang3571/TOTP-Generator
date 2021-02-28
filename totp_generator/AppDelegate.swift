@@ -22,5 +22,10 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     func applicationWillTerminate(_ aNotification: Notification) {
         // Insert code here to tear down your application
     }
+
+    // close the popover when the app becomes inactive
+//    func applicationDidResignActive(_ notification: Notification) {
+//        self.statusItemController?.popover.close()
+//    }
 }
 
