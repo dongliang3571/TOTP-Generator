@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:totp_generator.xcodeproj">
+      location = "group:/Users/dong.liang/dev/playground/totp_generator/TOTP Generator.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">

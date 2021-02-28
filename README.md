@@ -2,8 +2,11 @@
 
 This is a time-based one time password generator.
 
+Based on two IETF documents:
+- https://tools.ietf.org/html/rfc6238
+- https://tools.ietf.org/html/rfc4226
 
-## Requirements
+### Requirements
 
 - Currently only support for MacOS >= 10.12
 
@@ -13,6 +16,16 @@ Many companies nowadays require their employees to use a multi-factor authentica
 
 There might be similar apps out there, but you don't really know if they are safe or not. Are they sending your information to their servers? You don't know. That's another reason I built this application, you can see all the source code here.
 
+### How to build
+
+1. Install Cocoapods https://cocoapods.org
+2. Install dependencies
+
+    ```bash
+    pod install
+    ```
+3. Open `totp_generator.xcworkspace` with XCode and start building
+4. If you're too lazy, down the binary directly here
 ### Screenshots
 
 This is a menu bar application only
