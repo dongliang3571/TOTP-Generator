@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4518F1DA3957B6798ED8AD3F /* Pods_totp_generator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 932375F4C182A04D83966A4F /* Pods_totp_generator.framework */; };
-		B5F13DBA07B31F879E516F53 /* Pods_totp_generatorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 530919F8739879C17F252675 /* Pods_totp_generatorTests.framework */; };
-		D4993C6D97FB6F0564D450E7 /* Pods_totp_generator_totp_generatorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A5DF4F74B5929A5E47DA8CE /* Pods_totp_generator_totp_generatorUITests.framework */; };
+		39D71FEA5002829BAE95DF1D /* Pods_TOTPGenerator_TOTPGeneratorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC62594FB5F8249D3F357121 /* Pods_TOTPGenerator_TOTPGeneratorUITests.framework */; };
+		7C9FCBF972E6B4D7D740E20E /* Pods_TOTPGeneratorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 459F5EEBE45148821F0D1190 /* Pods_TOTPGeneratorTests.framework */; };
+		BBA7C0A6B0EB1D8DEEC1FE1E /* Pods_TOTPGenerator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93554AEF1DAEF20301F98CC2 /* Pods_TOTPGenerator.framework */; };
 		DD47982225EC2540003CF6AE /* ItemPropertyTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD47982125EC2540003CF6AE /* ItemPropertyTextField.swift */; };
 		DDC6A01C25E96C5D00B0E330 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC6A01B25E96C5D00B0E330 /* AppDelegate.swift */; };
 		DDC6A01E25E96C6000B0E330 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDC6A01D25E96C6000B0E330 /* Assets.xcassets */; };
-		DDC6A02D25E96C6100B0E330 /* totp_generatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC6A02C25E96C6100B0E330 /* totp_generatorTests.swift */; };
-		DDC6A03825E96C6100B0E330 /* totp_generatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC6A03725E96C6100B0E330 /* totp_generatorUITests.swift */; };
+		DDC6A02D25E96C6100B0E330 /* TOTPGeneratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC6A02C25E96C6100B0E330 /* TOTPGeneratorTests.swift */; };
+		DDC6A03825E96C6100B0E330 /* TOTPGeneratorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC6A03725E96C6100B0E330 /* TOTPGeneratorUITests.swift */; };
 		DDC6A04925E96D0200B0E330 /* StatusItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC6A04825E96D0200B0E330 /* StatusItemController.swift */; };
 		DDC6A05F25E9ACBC00B0E330 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDC6A05E25E9ACBC00B0E330 /* MainMenu.xib */; };
 		DDC6A06425E9B03D00B0E330 /* StatusItemPopOverContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC6A06325E9B03D00B0E330 /* StatusItemPopOverContentViewController.swift */; };
@@ -48,26 +48,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2CFC2668FC0EA14DCCC86033 /* Pods-TOTPGenerator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TOTPGenerator.release.xcconfig"; path = "Target Support Files/Pods-TOTPGenerator/Pods-TOTPGenerator.release.xcconfig"; sourceTree = "<group>"; };
+		459F5EEBE45148821F0D1190 /* Pods_TOTPGeneratorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TOTPGeneratorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BEE98023B6A5A53599D02B5 /* Pods-TOTPGeneratorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TOTPGeneratorTests.release.xcconfig"; path = "Target Support Files/Pods-TOTPGeneratorTests/Pods-TOTPGeneratorTests.release.xcconfig"; sourceTree = "<group>"; };
 		4D00ADF14654AA588D4AFAEE /* Pods-totp_generator-totp_generatorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-totp_generator-totp_generatorUITests.release.xcconfig"; path = "Target Support Files/Pods-totp_generator-totp_generatorUITests/Pods-totp_generator-totp_generatorUITests.release.xcconfig"; sourceTree = "<group>"; };
-		530919F8739879C17F252675 /* Pods_totp_generatorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_totp_generatorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E0480A293CCC93AD926E110 /* Pods-totp_generatorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-totp_generatorTests.release.xcconfig"; path = "Target Support Files/Pods-totp_generatorTests/Pods-totp_generatorTests.release.xcconfig"; sourceTree = "<group>"; };
+		6007310D491E466FFE5E6396 /* Pods-TOTPGenerator-TOTPGeneratorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TOTPGenerator-TOTPGeneratorUITests.release.xcconfig"; path = "Target Support Files/Pods-TOTPGenerator-TOTPGeneratorUITests/Pods-TOTPGenerator-TOTPGeneratorUITests.release.xcconfig"; sourceTree = "<group>"; };
 		6524321CD03AC108B0DB2F67 /* Pods-totp_generator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-totp_generator.release.xcconfig"; path = "Target Support Files/Pods-totp_generator/Pods-totp_generator.release.xcconfig"; sourceTree = "<group>"; };
-		8A5DF4F74B5929A5E47DA8CE /* Pods_totp_generator_totp_generatorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_totp_generator_totp_generatorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		932375F4C182A04D83966A4F /* Pods_totp_generator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_totp_generator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B5EF0C6FA4791432B81AC74 /* Pods-TOTPGenerator-TOTPGeneratorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TOTPGenerator-TOTPGeneratorUITests.debug.xcconfig"; path = "Target Support Files/Pods-TOTPGenerator-TOTPGeneratorUITests/Pods-TOTPGenerator-TOTPGeneratorUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		76D461F501DED73067F4B89A /* Pods-TOTPGeneratorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TOTPGeneratorTests.debug.xcconfig"; path = "Target Support Files/Pods-TOTPGeneratorTests/Pods-TOTPGeneratorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8A4780326AE87976A6410590 /* Pods-TOTPGenerator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TOTPGenerator.debug.xcconfig"; path = "Target Support Files/Pods-TOTPGenerator/Pods-TOTPGenerator.debug.xcconfig"; sourceTree = "<group>"; };
+		93554AEF1DAEF20301F98CC2 /* Pods_TOTPGenerator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TOTPGenerator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A57C38180254B9C43367AA41 /* Pods-totp_generator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-totp_generator.debug.xcconfig"; path = "Target Support Files/Pods-totp_generator/Pods-totp_generator.debug.xcconfig"; sourceTree = "<group>"; };
 		B88FB2C0745957790C9F628D /* Pods-totp_generatorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-totp_generatorTests.debug.xcconfig"; path = "Target Support Files/Pods-totp_generatorTests/Pods-totp_generatorTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B92FABAEEB338DB2DE9D8EE5 /* Pods-totp_generator-totp_generatorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-totp_generator-totp_generatorUITests.debug.xcconfig"; path = "Target Support Files/Pods-totp_generator-totp_generatorUITests/Pods-totp_generator-totp_generatorUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CC62594FB5F8249D3F357121 /* Pods_TOTPGenerator_TOTPGeneratorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TOTPGenerator_TOTPGeneratorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD47982125EC2540003CF6AE /* ItemPropertyTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemPropertyTextField.swift; sourceTree = "<group>"; };
-		DDC6A01825E96C5D00B0E330 /* totp_generator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = totp_generator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDC6A01825E96C5D00B0E330 /* TOTPGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TOTPGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDC6A01B25E96C5D00B0E330 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DDC6A01D25E96C6000B0E330 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DDC6A02225E96C6000B0E330 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DDC6A02325E96C6000B0E330 /* totp_generator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = totp_generator.entitlements; sourceTree = "<group>"; };
-		DDC6A02825E96C6100B0E330 /* totp_generatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = totp_generatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DDC6A02C25E96C6100B0E330 /* totp_generatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = totp_generatorTests.swift; sourceTree = "<group>"; };
+		DDC6A02325E96C6000B0E330 /* TOTPGenerator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TOTPGenerator.entitlements; sourceTree = "<group>"; };
+		DDC6A02825E96C6100B0E330 /* TOTPGeneratorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TOTPGeneratorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDC6A02C25E96C6100B0E330 /* TOTPGeneratorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TOTPGeneratorTests.swift; sourceTree = "<group>"; };
 		DDC6A02E25E96C6100B0E330 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DDC6A03325E96C6100B0E330 /* totp_generatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = totp_generatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DDC6A03725E96C6100B0E330 /* totp_generatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = totp_generatorUITests.swift; sourceTree = "<group>"; };
+		DDC6A03325E96C6100B0E330 /* TOTPGeneratorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TOTPGeneratorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDC6A03725E96C6100B0E330 /* TOTPGeneratorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TOTPGeneratorUITests.swift; sourceTree = "<group>"; };
 		DDC6A03925E96C6100B0E330 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DDC6A04825E96D0200B0E330 /* StatusItemController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusItemController.swift; sourceTree = "<group>"; };
 		DDC6A05E25E9ACBC00B0E330 /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
@@ -89,7 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4518F1DA3957B6798ED8AD3F /* Pods_totp_generator.framework in Frameworks */,
+				BBA7C0A6B0EB1D8DEEC1FE1E /* Pods_TOTPGenerator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,7 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5F13DBA07B31F879E516F53 /* Pods_totp_generatorTests.framework in Frameworks */,
+				7C9FCBF972E6B4D7D740E20E /* Pods_TOTPGeneratorTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,7 +111,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4993C6D97FB6F0564D450E7 /* Pods_totp_generator_totp_generatorUITests.framework in Frameworks */,
+				39D71FEA5002829BAE95DF1D /* Pods_TOTPGenerator_TOTPGeneratorUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,9 +121,9 @@
 		12B0B216F1B1529780A91567 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				932375F4C182A04D83966A4F /* Pods_totp_generator.framework */,
-				8A5DF4F74B5929A5E47DA8CE /* Pods_totp_generator_totp_generatorUITests.framework */,
-				530919F8739879C17F252675 /* Pods_totp_generatorTests.framework */,
+				93554AEF1DAEF20301F98CC2 /* Pods_TOTPGenerator.framework */,
+				CC62594FB5F8249D3F357121 /* Pods_TOTPGenerator_TOTPGeneratorUITests.framework */,
+				459F5EEBE45148821F0D1190 /* Pods_TOTPGeneratorTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -131,6 +137,12 @@
 				4D00ADF14654AA588D4AFAEE /* Pods-totp_generator-totp_generatorUITests.release.xcconfig */,
 				B88FB2C0745957790C9F628D /* Pods-totp_generatorTests.debug.xcconfig */,
 				5E0480A293CCC93AD926E110 /* Pods-totp_generatorTests.release.xcconfig */,
+				8A4780326AE87976A6410590 /* Pods-TOTPGenerator.debug.xcconfig */,
+				2CFC2668FC0EA14DCCC86033 /* Pods-TOTPGenerator.release.xcconfig */,
+				6B5EF0C6FA4791432B81AC74 /* Pods-TOTPGenerator-TOTPGeneratorUITests.debug.xcconfig */,
+				6007310D491E466FFE5E6396 /* Pods-TOTPGenerator-TOTPGeneratorUITests.release.xcconfig */,
+				76D461F501DED73067F4B89A /* Pods-TOTPGeneratorTests.debug.xcconfig */,
+				4BEE98023B6A5A53599D02B5 /* Pods-TOTPGeneratorTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -138,9 +150,9 @@
 		DDC6A00F25E96C5D00B0E330 = {
 			isa = PBXGroup;
 			children = (
-				DDC6A01A25E96C5D00B0E330 /* totp_generator */,
-				DDC6A02B25E96C6100B0E330 /* totp_generatorTests */,
-				DDC6A03625E96C6100B0E330 /* totp_generatorUITests */,
+				DDC6A01A25E96C5D00B0E330 /* TOTPGenerator */,
+				DDC6A02B25E96C6100B0E330 /* TOTPGneratorTests */,
+				DDC6A03625E96C6100B0E330 /* TOTPGeneratorUITests */,
 				DDC6A01925E96C5D00B0E330 /* Products */,
 				CC35F101889940DB756C5406 /* Pods */,
 				12B0B216F1B1529780A91567 /* Frameworks */,
@@ -150,14 +162,14 @@
 		DDC6A01925E96C5D00B0E330 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DDC6A01825E96C5D00B0E330 /* totp_generator.app */,
-				DDC6A02825E96C6100B0E330 /* totp_generatorTests.xctest */,
-				DDC6A03325E96C6100B0E330 /* totp_generatorUITests.xctest */,
+				DDC6A01825E96C5D00B0E330 /* TOTPGenerator.app */,
+				DDC6A02825E96C6100B0E330 /* TOTPGeneratorTests.xctest */,
+				DDC6A03325E96C6100B0E330 /* TOTPGeneratorUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DDC6A01A25E96C5D00B0E330 /* totp_generator */ = {
+		DDC6A01A25E96C5D00B0E330 /* TOTPGenerator */ = {
 			isa = PBXGroup;
 			children = (
 				DDC6A0AB25EAEB6800B0E330 /* Popover */,
@@ -169,27 +181,27 @@
 				DDC6A01B25E96C5D00B0E330 /* AppDelegate.swift */,
 				DDC6A01D25E96C6000B0E330 /* Assets.xcassets */,
 				DDC6A02225E96C6000B0E330 /* Info.plist */,
-				DDC6A02325E96C6000B0E330 /* totp_generator.entitlements */,
+				DDC6A02325E96C6000B0E330 /* TOTPGenerator.entitlements */,
 			);
-			path = totp_generator;
+			path = TOTPGenerator;
 			sourceTree = "<group>";
 		};
-		DDC6A02B25E96C6100B0E330 /* totp_generatorTests */ = {
+		DDC6A02B25E96C6100B0E330 /* TOTPGneratorTests */ = {
 			isa = PBXGroup;
 			children = (
-				DDC6A02C25E96C6100B0E330 /* totp_generatorTests.swift */,
+				DDC6A02C25E96C6100B0E330 /* TOTPGeneratorTests.swift */,
 				DDC6A02E25E96C6100B0E330 /* Info.plist */,
 			);
-			path = totp_generatorTests;
+			path = TOTPGneratorTests;
 			sourceTree = "<group>";
 		};
-		DDC6A03625E96C6100B0E330 /* totp_generatorUITests */ = {
+		DDC6A03625E96C6100B0E330 /* TOTPGeneratorUITests */ = {
 			isa = PBXGroup;
 			children = (
-				DDC6A03725E96C6100B0E330 /* totp_generatorUITests.swift */,
+				DDC6A03725E96C6100B0E330 /* TOTPGeneratorUITests.swift */,
 				DDC6A03925E96C6100B0E330 /* Info.plist */,
 			);
-			path = totp_generatorUITests;
+			path = TOTPGeneratorUITests;
 			sourceTree = "<group>";
 		};
 		DDC6A06925E9E59700B0E330 /* Model */ = {
@@ -243,9 +255,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DDC6A01725E96C5D00B0E330 /* totp_generator */ = {
+		DDC6A01725E96C5D00B0E330 /* TOTPGenerator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DDC6A03C25E96C6100B0E330 /* Build configuration list for PBXNativeTarget "totp_generator" */;
+			buildConfigurationList = DDC6A03C25E96C6100B0E330 /* Build configuration list for PBXNativeTarget "TOTPGenerator" */;
 			buildPhases = (
 				CC6319627E67CB86DC95D645 /* [CP] Check Pods Manifest.lock */,
 				DDC6A01425E96C5D00B0E330 /* Sources */,
@@ -257,14 +269,14 @@
 			);
 			dependencies = (
 			);
-			name = totp_generator;
+			name = TOTPGenerator;
 			productName = totp_generator;
-			productReference = DDC6A01825E96C5D00B0E330 /* totp_generator.app */;
+			productReference = DDC6A01825E96C5D00B0E330 /* TOTPGenerator.app */;
 			productType = "com.apple.product-type.application";
 		};
-		DDC6A02725E96C6100B0E330 /* totp_generatorTests */ = {
+		DDC6A02725E96C6100B0E330 /* TOTPGeneratorTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DDC6A03F25E96C6100B0E330 /* Build configuration list for PBXNativeTarget "totp_generatorTests" */;
+			buildConfigurationList = DDC6A03F25E96C6100B0E330 /* Build configuration list for PBXNativeTarget "TOTPGeneratorTests" */;
 			buildPhases = (
 				AB6EC0F7B63D99A4D3064CF9 /* [CP] Check Pods Manifest.lock */,
 				DDC6A02425E96C6100B0E330 /* Sources */,
@@ -276,14 +288,14 @@
 			dependencies = (
 				DDC6A02A25E96C6100B0E330 /* PBXTargetDependency */,
 			);
-			name = totp_generatorTests;
+			name = TOTPGeneratorTests;
 			productName = totp_generatorTests;
-			productReference = DDC6A02825E96C6100B0E330 /* totp_generatorTests.xctest */;
+			productReference = DDC6A02825E96C6100B0E330 /* TOTPGeneratorTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		DDC6A03225E96C6100B0E330 /* totp_generatorUITests */ = {
+		DDC6A03225E96C6100B0E330 /* TOTPGeneratorUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DDC6A04225E96C6100B0E330 /* Build configuration list for PBXNativeTarget "totp_generatorUITests" */;
+			buildConfigurationList = DDC6A04225E96C6100B0E330 /* Build configuration list for PBXNativeTarget "TOTPGeneratorUITests" */;
 			buildPhases = (
 				FE0E7AEF9DEDF247C208E919 /* [CP] Check Pods Manifest.lock */,
 				DDC6A02F25E96C6100B0E330 /* Sources */,
@@ -296,9 +308,9 @@
 			dependencies = (
 				DDC6A03525E96C6100B0E330 /* PBXTargetDependency */,
 			);
-			name = totp_generatorUITests;
+			name = TOTPGeneratorUITests;
 			productName = totp_generatorUITests;
-			productReference = DDC6A03325E96C6100B0E330 /* totp_generatorUITests.xctest */;
+			productReference = DDC6A03325E96C6100B0E330 /* TOTPGeneratorUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -323,7 +335,7 @@
 					};
 				};
 			};
-			buildConfigurationList = DDC6A01325E96C5D00B0E330 /* Build configuration list for PBXProject "totp_generator" */;
+			buildConfigurationList = DDC6A01325E96C5D00B0E330 /* Build configuration list for PBXProject "TOTPGenerator" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -336,9 +348,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DDC6A01725E96C5D00B0E330 /* totp_generator */,
-				DDC6A02725E96C6100B0E330 /* totp_generatorTests */,
-				DDC6A03225E96C6100B0E330 /* totp_generatorUITests */,
+				DDC6A01725E96C5D00B0E330 /* TOTPGenerator */,
+				DDC6A02725E96C6100B0E330 /* TOTPGeneratorTests */,
+				DDC6A03225E96C6100B0E330 /* TOTPGeneratorUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -376,15 +388,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-totp_generator-totp_generatorUITests/Pods-totp_generator-totp_generatorUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-TOTPGenerator-TOTPGeneratorUITests/Pods-TOTPGenerator-TOTPGeneratorUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-totp_generator-totp_generatorUITests/Pods-totp_generator-totp_generatorUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-TOTPGenerator-TOTPGeneratorUITests/Pods-TOTPGenerator-TOTPGeneratorUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-totp_generator-totp_generatorUITests/Pods-totp_generator-totp_generatorUITests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TOTPGenerator-TOTPGeneratorUITests/Pods-TOTPGenerator-TOTPGeneratorUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A53E3BEAFE27CFBC2BEEDB8B /* [CP] Embed Pods Frameworks */ = {
@@ -393,15 +405,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-totp_generator/Pods-totp_generator-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-TOTPGenerator/Pods-TOTPGenerator-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-totp_generator/Pods-totp_generator-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-TOTPGenerator/Pods-TOTPGenerator-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-totp_generator/Pods-totp_generator-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TOTPGenerator/Pods-TOTPGenerator-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		AB6EC0F7B63D99A4D3064CF9 /* [CP] Check Pods Manifest.lock */ = {
@@ -419,7 +431,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-totp_generatorTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-TOTPGeneratorTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -441,7 +453,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-totp_generator-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-TOTPGenerator-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -463,7 +475,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-totp_generator-totp_generatorUITests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-TOTPGenerator-TOTPGeneratorUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -498,7 +510,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDC6A02D25E96C6100B0E330 /* totp_generatorTests.swift in Sources */,
+				DDC6A02D25E96C6100B0E330 /* TOTPGeneratorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -506,7 +518,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDC6A03825E96C6100B0E330 /* totp_generatorUITests.swift in Sources */,
+				DDC6A03825E96C6100B0E330 /* TOTPGeneratorUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -515,12 +527,12 @@
 /* Begin PBXTargetDependency section */
 		DDC6A02A25E96C6100B0E330 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DDC6A01725E96C5D00B0E330 /* totp_generator */;
+			target = DDC6A01725E96C5D00B0E330 /* TOTPGenerator */;
 			targetProxy = DDC6A02925E96C6100B0E330 /* PBXContainerItemProxy */;
 		};
 		DDC6A03525E96C6100B0E330 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DDC6A01725E96C5D00B0E330 /* totp_generator */;
+			target = DDC6A01725E96C5D00B0E330 /* TOTPGenerator */;
 			targetProxy = DDC6A03425E96C6100B0E330 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -577,7 +589,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -632,7 +644,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
@@ -643,14 +655,14 @@
 		};
 		DDC6A03D25E96C6100B0E330 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A57C38180254B9C43367AA41 /* Pods-totp_generator.debug.xcconfig */;
+			baseConfigurationReference = 8A4780326AE87976A6410590 /* Pods-TOTPGenerator.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = totp_generator/totp_generator.entitlements;
+				CODE_SIGN_ENTITLEMENTS = TOTPGenerator/TOTPGenerator.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = totp_generator/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/TOTPGenerator/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -664,14 +676,14 @@
 		};
 		DDC6A03E25E96C6100B0E330 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6524321CD03AC108B0DB2F67 /* Pods-totp_generator.release.xcconfig */;
+			baseConfigurationReference = 2CFC2668FC0EA14DCCC86033 /* Pods-TOTPGenerator.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = totp_generator/totp_generator.entitlements;
+				CODE_SIGN_ENTITLEMENTS = TOTPGenerator/TOTPGenerator.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = totp_generator/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/TOTPGenerator/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -685,7 +697,7 @@
 		};
 		DDC6A04025E96C6100B0E330 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B88FB2C0745957790C9F628D /* Pods-totp_generatorTests.debug.xcconfig */;
+			baseConfigurationReference = 76D461F501DED73067F4B89A /* Pods-TOTPGeneratorTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -701,13 +713,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dong.totp-generatorTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/totp_generator.app/Contents/MacOS/totp_generator";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TOTPGenerator.app/Contents/MacOS/TOTPGenerator";
 			};
 			name = Debug;
 		};
 		DDC6A04125E96C6100B0E330 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5E0480A293CCC93AD926E110 /* Pods-totp_generatorTests.release.xcconfig */;
+			baseConfigurationReference = 4BEE98023B6A5A53599D02B5 /* Pods-TOTPGeneratorTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -723,13 +735,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dong.totp-generatorTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/totp_generator.app/Contents/MacOS/totp_generator";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TOTPGenerator.app/Contents/MacOS/TOTPGenerator";
 			};
 			name = Release;
 		};
 		DDC6A04325E96C6100B0E330 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B92FABAEEB338DB2DE9D8EE5 /* Pods-totp_generator-totp_generatorUITests.debug.xcconfig */;
+			baseConfigurationReference = 6B5EF0C6FA4791432B81AC74 /* Pods-TOTPGenerator-TOTPGeneratorUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -749,7 +761,7 @@
 		};
 		DDC6A04425E96C6100B0E330 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4D00ADF14654AA588D4AFAEE /* Pods-totp_generator-totp_generatorUITests.release.xcconfig */;
+			baseConfigurationReference = 6007310D491E466FFE5E6396 /* Pods-TOTPGenerator-TOTPGeneratorUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -770,7 +782,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DDC6A01325E96C5D00B0E330 /* Build configuration list for PBXProject "totp_generator" */ = {
+		DDC6A01325E96C5D00B0E330 /* Build configuration list for PBXProject "TOTPGenerator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DDC6A03A25E96C6100B0E330 /* Debug */,
@@ -779,7 +791,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DDC6A03C25E96C6100B0E330 /* Build configuration list for PBXNativeTarget "totp_generator" */ = {
+		DDC6A03C25E96C6100B0E330 /* Build configuration list for PBXNativeTarget "TOTPGenerator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DDC6A03D25E96C6100B0E330 /* Debug */,
@@ -788,7 +800,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DDC6A03F25E96C6100B0E330 /* Build configuration list for PBXNativeTarget "totp_generatorTests" */ = {
+		DDC6A03F25E96C6100B0E330 /* Build configuration list for PBXNativeTarget "TOTPGeneratorTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DDC6A04025E96C6100B0E330 /* Debug */,
@@ -797,7 +809,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DDC6A04225E96C6100B0E330 /* Build configuration list for PBXNativeTarget "totp_generatorUITests" */ = {
+		DDC6A04225E96C6100B0E330 /* Build configuration list for PBXNativeTarget "TOTPGeneratorUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DDC6A04325E96C6100B0E330 /* Debug */,

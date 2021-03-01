@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="17156" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
     <dependencies>
-        <deployment identifier="macosx"/>
         <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="17156"/>
     </dependencies>
     <objects>
@@ -16,9 +15,9 @@
         <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
         <menu title="Main Menu" systemMenu="main" id="85a-qE-qba">
             <items>
-                <menuItem title="TOTP Generator" id="4wT-Zf-CQM">
+                <menuItem title="TOTPGenerator" id="4wT-Zf-CQM">
                     <modifierMask key="keyEquivalentModifierMask"/>
-                    <menu key="submenu" title="TOTP Generator" systemMenu="apple" id="rXW-ar-kHs">
+                    <menu key="submenu" title="TOTPGenerator" systemMenu="apple" id="rXW-ar-kHs">
                         <items>
                             <menuItem title="About testtt" id="XUO-h5-1ih">
                                 <modifierMask key="keyEquivalentModifierMask"/>

@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "DDC6A01725E96C5D00B0E330"
-               BuildableName = "TOTP Generator.app"
-               BlueprintName = "TOTP Generator"
-               ReferencedContainer = "container:TOTP Generator.xcodeproj">
+               BuildableName = "TOTPGenerator.app"
+               BlueprintName = "TOTPGenerator"
+               ReferencedContainer = "container:TOTPGenerator.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -45,9 +45,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "DDC6A01725E96C5D00B0E330"
-            BuildableName = "TOTP Generator.app"
-            BlueprintName = "TOTP Generator"
-            ReferencedContainer = "container:TOTP Generator.xcodeproj">
+            BuildableName = "TOTPGenerator.app"
+            BlueprintName = "TOTPGenerator"
+            ReferencedContainer = "container:TOTPGenerator.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "DDC6A01725E96C5D00B0E330"
-            BuildableName = "TOTP Generator.app"
-            BlueprintName = "TOTP Generator"
-            ReferencedContainer = "container:TOTP Generator.xcodeproj">
+            BuildableName = "TOTPGenerator.app"
+            BlueprintName = "TOTPGenerator"
+            ReferencedContainer = "container:TOTPGenerator.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
