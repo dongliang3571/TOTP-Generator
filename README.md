@@ -20,7 +20,7 @@ There might be similar apps out there, but you don't really know if they are saf
 
 Download the `.dmg` file [here](/build/TOTPGenerator.dmg)
 
-### How to build
+### How to build from source code
 
 1. Install Cocoapods https://cocoapods.org
 2. Install dependencies
@@ -28,7 +28,11 @@ Download the `.dmg` file [here](/build/TOTPGenerator.dmg)
     ```bash
     pod install
     ```
-3. Open `TOTPGenerator.xcworkspace` with XCode and start building
+3. Open `TOTPGenerator.xcworkspace` with XCode
+
+4. From XCode menu, Product -> Archive -> Distribute App -> Export/Copy App
+
+5. You should be able to find `TOTPGenerator.app` in the output folder.
 
 ### Screenshots
 
