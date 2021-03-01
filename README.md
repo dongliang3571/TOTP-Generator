@@ -24,7 +24,7 @@ There might be similar apps out there, but you don't really know if they are saf
     ```bash
     pod install
     ```
-3. Open `totp_generator.xcworkspace` with XCode and start building
+3. Open `TOTPGenerator.xcworkspace` with XCode and start building
 4. If you're too lazy, down the binary directly here
 ### Screenshots
 
