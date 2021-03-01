@@ -25,7 +25,7 @@ There might be similar apps out there, but you don't really know if they are saf
     pod install
     ```
 3. Open `TOTPGenerator.xcworkspace` with XCode and start building
-4. If you're too lazy, down the binary directly here
+4. If you're too lazy, down the binary directly [here](/build/TOTPGenerator.dmg)
 ### Screenshots
 
 This is a menu bar application only
