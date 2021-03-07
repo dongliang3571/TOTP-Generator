@@ -1,6 +1,6 @@
 ## TOTP Generator
 
-This is a time-based one time password generator.
+This is a time-based one time password generator(totp generator).
 
 Based on two IETF documents:
 - https://tools.ietf.org/html/rfc6238
