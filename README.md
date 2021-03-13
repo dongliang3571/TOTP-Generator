@@ -6,6 +6,13 @@ Based on two IETF documents:
 - https://tools.ietf.org/html/rfc6238
 - https://tools.ietf.org/html/rfc4226
 
+### Screenshots
+
+This is a menu bar application only
+
+![Screenshot1](/screenshots/screenshot-1.png)
+![Screenshot2](/screenshots/screenshot-2.png)
+
 ### Motivation
 
 Many companies nowadays require their employees to use a multi-factor authentication. Like entering a one time password when doing authentication. There are many mobile apps like Google authenticator, but they only work on your phones. What if you want a Desktop version, this is why I built this app.
@@ -33,13 +40,6 @@ Download the `.dmg` file [here](/build/TOTPGenerator.dmg)
 4. From XCode menu, Product -> Archive -> Distribute App -> Export/Copy App
 
 5. You should be able to find `TOTPGenerator.app` in the output folder.
-
-### Screenshots
-
-This is a menu bar application only
-
-![Screenshot1](/screenshots/screenshot-1.png)
-![Screenshot2](/screenshots/screenshot-2.png)
 
 ### How to get secret
 
