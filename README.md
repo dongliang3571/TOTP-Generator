@@ -55,4 +55,5 @@ https://github.com/LinusU/node-appdmg
 
 1. `npm install -g appdmg`
 2. `appdmg <json-path> <dmg-path>`
-3. Take the example of TOTP Generator, go to `build` folder and do `appdmg --verbose ./app.json ./TOTPGenerator.dmg`
+3. Take the example of TOTP Generator, go to `build` folder 
+4. Fiannly do `appdmg --verbose ./app.json ./TOTPGenerator.dmg`, if it runs succesfully you will see `TOTPGenerator.dmg` in your current folder
