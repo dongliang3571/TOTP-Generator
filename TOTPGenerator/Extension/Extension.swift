@@ -54,3 +54,37 @@ extension Calendar {
         return  self.component(.second, from: Date())
     }
 }
+
+extension NSAnimationContext {
+    static func flashAnimation(view: NSView, completeHandler: (() -> Void)?) {
+        let origin: CGPoint = view.frame.origin
+
+        NSAnimationContext.runAnimationGroup({ (context) in
+            context.allowsImplicitAnimation = true
+            context.duration = 0.2
+            view.animator().layer!.backgroundColor = NSColor.white.cgColor
+
+            view.frame.origin = CGPoint(x: origin.x, y: origin.y + 4)
+        }) {
+            NSAnimationContext.runAnimationGroup ({ (context) in
+                context.allowsImplicitAnimation = true
+                context.duration = 0.2
+                view.animator().layer!.backgroundColor = NSColor.darkGray.cgColor
+
+                view.frame.origin = CGPoint(x: origin.x, y: origin.y - 4)
+            }) {
+                NSAnimationContext.runAnimationGroup ({ (context) in
+                    context.allowsImplicitAnimation = true
+                    context.duration = 0.2
+                    view.animator().layer!.backgroundColor = NSColor.darkGray.cgColor
+
+                    view.frame.origin = CGPoint(x: origin.x, y: origin.y)
+                }) {
+                    if let h = completeHandler {
+                        h()
+                    }
+                }
+            }
+        }
+    }
+}

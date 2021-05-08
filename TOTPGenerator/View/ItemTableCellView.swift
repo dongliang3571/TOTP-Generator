@@ -16,6 +16,9 @@ class ItemTableCellView: NSTableCellView {
     var itemCodeTextField: ItemPropertyTextField
 
     var item: Item?
+
+    var centerViewOrigin: CGPoint?
+
     override func draw(_ dirtyRect: NSRect) {
         super.draw(dirtyRect)
 
@@ -26,7 +29,9 @@ class ItemTableCellView: NSTableCellView {
         self.centerView = NSView(frame: NSRect(x: 13, y: 10, width: 324, height: 60))
         self.itemSiteTextField = ItemPropertyTextField(frame: NSRect(x: 30, y: 20, width: 120, height: 30))
         self.itemUserTextField = ItemPropertyTextField(frame: NSRect(x: 30, y: 0, width: 120, height: 30))
-        self.itemCodeTextField = ItemPropertyTextField(frame: NSRect(x: 225, y: 10, width: 120, height: 30))
+        self.itemCodeTextField = ItemPropertyTextField(frame: NSRect(x: 225, y: 17, width: 77, height: 25))
+        self.itemCodeTextField.layer?.cornerRadius = CGFloat(7)
+
         super.init(frame: frame)
 
         self.itemSiteTextField.textColor = NSColor.white
@@ -43,6 +48,10 @@ class ItemTableCellView: NSTableCellView {
 
         self.addSubview(self.centerView)
         self.wantsLayer = true
+
+        NSAnimationContext.flashAnimation(view: self.itemCodeTextField, completeHandler: nil)
+
+        centerViewOrigin = self.centerView.frame.origin
     }
 
     required init?(coder: NSCoder) {
@@ -61,32 +70,15 @@ class ItemTableCellView: NSTableCellView {
         super.mouseDown(with: event)
 
         if let i = item {
-
             self.copyTextFieldContentToPasteBoard(contentToCopy: i.now())
-            NSAnimationContext.runAnimationGroup({ (context) in
-                context.allowsImplicitAnimation = true
-                context.duration = 0.2
-                self.centerView.animator().layer!.backgroundColor = NSColor.white.cgColor
 
-                self.centerView.frame.origin = CGPoint(x: 13, y: 14)
-            }) {
-                NSAnimationContext.runAnimationGroup ({ (context) in
-                    context.allowsImplicitAnimation = true
-                    context.duration = 0.2
-                    self.centerView.animator().layer!.backgroundColor = NSColor.darkGray.cgColor
+            if let orig = self.centerViewOrigin {
+                // Reserves original origin so when multiple click to the view won't actually change the view position
+                self.centerView.frame.origin = orig
+            }
 
-                    self.centerView.frame.origin = CGPoint(x: 13, y: 6)
-                }) {
-                    NSAnimationContext.runAnimationGroup ({ (context) in
-                        context.allowsImplicitAnimation = true
-                        context.duration = 0.2
-                        self.centerView.animator().layer!.backgroundColor = NSColor.darkGray.cgColor
-
-                        self.centerView.frame.origin = CGPoint(x: 13, y: 10)
-                    }) {
-                        self.itemCodeTextField.stringValue = i.now()
-                    }
-                }
+            NSAnimationContext.flashAnimation(view: self.centerView) {
+                self.itemCodeTextField.stringValue = i.now()
             }
         }
     }
