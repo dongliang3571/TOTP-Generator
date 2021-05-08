@@ -1,10 +1,17 @@
 ## TOTP Generator
 
-This is a time-based one time password generator.
+This is a time-based one time password generator(totp generator).
 
 Based on two IETF documents:
 - https://tools.ietf.org/html/rfc6238
 - https://tools.ietf.org/html/rfc4226
+
+### Screenshots
+
+This is a menu bar application only
+
+![Screenshot1](/screenshots/screenshot-1.png)
+![Screenshot2](/screenshots/screenshot-2.png)
 
 ### Motivation
 
@@ -33,13 +40,6 @@ Download the `.dmg` file [here](/build/TOTPGenerator.dmg)
 4. From XCode menu, Product -> Archive -> Distribute App -> Export/Copy App
 
 5. You should be able to find `TOTPGenerator.app` in the output folder.
-
-### Screenshots
-
-This is a menu bar application only
-
-![Screenshot1](/screenshots/screenshot-1.png)
-![Screenshot2](/screenshots/screenshot-2.png)
 
 ### How to get secret
 
