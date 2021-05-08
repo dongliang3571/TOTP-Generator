@@ -47,3 +47,12 @@ When you're asked to enable multi-factors authentication, you're either provided
 
 1. With secret key, you can easily enter into this application and start using it
 2. With QR Code, you have to decode it and extract the secret out of it. You can use this [QR Code decoder](https://dongliang3571.github.io/qrcode-decoder/) to get your secret out of a QR Code. Don't worry, I don't store any of your data, the source code is here https://github.com/dongliang3571/qrcode-decoder
+
+
+### How to generate a `.dmg` image for your OS X applications
+
+https://github.com/LinusU/node-appdmg
+
+1. `npm install -g appdmg`
+2. `appdmg <json-path> <dmg-path>`
+3. Take the example of TOTP Generator, go to `build` folder and do `appdmg --verbose ./app.json ./TOTPGenerator.dmg`
